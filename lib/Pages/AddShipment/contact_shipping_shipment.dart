@@ -76,6 +76,7 @@ class ContactShippingShipment extends StatelessWidget {
                       borderRadius: BorderRadius.circular(10),
                       color: Color.fromARGB(179, 233, 233, 233)),
                   child: TextField(
+                    keyboardType: TextInputType.emailAddress,
                     decoration: InputDecoration(
                         border: InputBorder.none,
                         hintText: "Email",
@@ -96,6 +97,8 @@ class ContactShippingShipment extends StatelessWidget {
                       borderRadius: BorderRadius.circular(10),
                       color: Color.fromARGB(179, 233, 233, 233)),
                   child: TextField(
+                      maxLength: 10,
+                      keyboardType: TextInputType.phone,
                       decoration: InputDecoration(
                           border: InputBorder.none,
                           hintText: "Contact Number",
