@@ -255,6 +255,7 @@ class _AccountSettingState extends State<AccountSetting> {
                         color: Color.fromARGB(179, 233, 233, 233),
                         borderRadius: BorderRadius.circular(10.0)),
                     child: TextField(
+                      obscureText: true,
                       decoration: InputDecoration(
                           border: InputBorder.none,
                           hintText: "Old Password",
@@ -277,6 +278,7 @@ class _AccountSettingState extends State<AccountSetting> {
                         color: Color.fromARGB(179, 233, 233, 233),
                         borderRadius: BorderRadius.circular(10.0)),
                     child: TextField(
+                      obscureText: true,
                       decoration: InputDecoration(
                           border: InputBorder.none,
                           hintText: "New Password",
@@ -303,6 +305,7 @@ class _AccountSettingState extends State<AccountSetting> {
                         color: Color.fromARGB(179, 233, 233, 233),
                         borderRadius: BorderRadius.circular(10.0)),
                     child: TextField(
+                      obscureText: true,
                       decoration: InputDecoration(
                           border: InputBorder.none,
                           hintText: "Confirm Password",
